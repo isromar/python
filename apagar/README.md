@@ -4,3 +4,6 @@ Este en un sencillo programa que surge porque el apagado automático del PC no f
 
 ## Autor
 Isabel Rodenas Marin
+
+## Image preview
+![Preview de la Web App](https://raw.githubusercontent.com/isromar/Python/main/apagar/preview.jpg)
