@@ -23,5 +23,5 @@ pip install python-dotenv
 ```
 
 ## Idea
-Surge a raíz de usar el chatGPT y pensar que sería una buena idea tener organizadas y a mano las preguntas y respuestas del chat simplemente con abrir un archivo .html
+Surge a raíz de usar el chatGPT y pensar que sería una buena idea tener organizadas y a mano las preguntas y respuestas del chat simplemente con abrir un archivo .html  
 Las preguntas están numeradas y se pincha sobre cada una para desplegar la respuesta
