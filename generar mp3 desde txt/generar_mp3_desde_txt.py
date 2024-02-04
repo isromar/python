@@ -9,7 +9,7 @@ from gtts import gTTS  # Importa la clase gTTS desde la librería gtts
 import os  # Importa el módulo os para interactuar con el sistema operativo
 
 print("*** C O N V E R T I D O R  D E  T X T  A  M P 3 ***")
-print("1.Escribe el nombre de un archivo de texto existente en el mismo directorio que está el program\n2.Selecciona el idioma en que está escrito el texto, por defecto inglés\n3.Espera hasta que el archivo esté generado\n4.Finalmente responde si quieres que se reproduzca ahora")
+print("1.Escribe el nombre de un archivo de texto existente en el mismo directorio que está el programa\n2.Selecciona el idioma en que está escrito el texto, por defecto inglés\n3.Espera hasta que el archivo esté generado\n4.Finalmente responde si quieres que se reproduzca ahora")
 
 # Pregunta por el archivo para leer sin la extensión
 nombre_archivo = input("\nIngrese el nombre del archivo de texto sin extensión .txt: ").lower()  # Solicita al usuario el nombre del archivo y lo convierte a minúsculas
