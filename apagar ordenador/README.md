@@ -10,4 +10,4 @@ Isabel Rodenas Marin
 Este en un sencillo programa que surge porque el apagado automático del PC no funcionaba adecuadamente, entonces pensé crear un programa que tuviese la opción de hibernar y de apagar el ordenador.
 
 ## Image preview
-![Preview](https://raw.githubusercontent.com/isromar/Python/main/apagar/preview.jpg)
+![Preview](https://raw.githubusercontent.com/isromar/Python/main/apagar%20ordenador/preview.jpg)
