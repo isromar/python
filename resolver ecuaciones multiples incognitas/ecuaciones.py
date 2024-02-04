@@ -51,7 +51,7 @@ try:
     else:
         x = np.linalg.solve(A, b)
         # Guardamos la solución en un archivo de texto
-        np.savetxt('resultado.txt', x)
+        np.savetxt('solucion.txt', x)
         # Imprimimos la solución
         print('\nSolución:',x)
 except np.linalg.LinAlgError:
