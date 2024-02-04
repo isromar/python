@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+
+# Variables de entorno
+.env
+
+password.txt
