@@ -9,5 +9,5 @@ coverage/
 build/
 dist/
 
-# Proyectos privados
-# telegram bot/ no funciona porque hay que pagar por uso de ChatGPT
+# Variables de entorno
+.env
