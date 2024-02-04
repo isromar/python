@@ -8,9 +8,9 @@ Antes de ejecutar el bot, asegúrate de haber configurado las siguientes variabl
 - `OPENAPI_KEY`: Clave de autenticación para la API de OpenAI.
 
 ## Uso
-Para crear el bot de Telegram, se puede utilizar el servicio ofrecido por BotFather (https://botfather.io/) que no está explicado en reste README  
+Para crear el bot de Telegram, se puede utilizar el servicio ofrecido por BotFather (https://botfather.io/) que no está explicado en este README  
 Una vez creado el bot, puedes ejecutar este programa bot_telegram.py y dejarlo corriendo.  
-El bot de Telegram responderá a los mensajes de texto con respuestas generadas por OpenAI. 
+Desde Telegram, ahora el bot responderá a los mensajes de texto con respuestas generadas por OpenAI. 
 
 ## Dependencias
 El programa utiliza las siguientes bibliotecas de Python:
@@ -32,4 +32,4 @@ pip install openai
 pero ahora hay que poner esa versión concreta
 
 ## Idea
-Este script surge porque prefería tener la comodidad de accceder al chat a través de Telegram como una conversación, sin tener que acceder al chat de la web a través del navegador
+Este script surge porque prefería tener la comodidad de accceder al chatGPT a través de Telegram como una conversación, sin tener que acceder al chat de la web a través del navegador
