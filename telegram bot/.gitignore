@@ -9,8 +9,5 @@ coverage/
 build/
 dist/
 
-# Extensiones
-*.mp3
-
 # Variables de entorno
 .env

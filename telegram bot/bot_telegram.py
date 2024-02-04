@@ -1,5 +1,4 @@
 # Este programa implementa un bot de Telegram que utiliza la API de OpenAI para generar respuestas a mensajes de texto.
-# Aunque el motor de búsqueda "text-davinci-003" actualmente está desactualizado
 
 # Importa la librería para cargar variables de entorno desde el archivo .env
 from dotenv import load_dotenv
@@ -19,10 +18,10 @@ OPENAPI_KEY = os.getenv('OPENAPI_KEY')
 
 # Configuración de la API de OpenAI
 openai.api_key = OPENAPI_KEY
-model_engine = "text-davinci-003"  # Motor predeterminado
+model_engine = "gpt-3.5-turbo-16k-0613"  # Motor predeterminado válido hasta 2024-06-13
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
-# Función para generar una respuesta a partir de un mensaje de texto usando OpenAI GPT-3
+# Función para generar una respuesta a partir de un mensaje de texto usando OpenAI
 def generate_response(text):
     response = openai.Completion.create(
         engine=model_engine,

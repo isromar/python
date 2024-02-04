@@ -8,3 +8,6 @@ coverage/
 # Production
 build/
 dist/
+
+# Proyectos privados
+# telegram bot/ en realidad ya no funciona porque ese motor engine está deprecated, además hay que pagar por uso de ChatGPT
