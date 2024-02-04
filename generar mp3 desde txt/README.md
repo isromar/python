@@ -12,4 +12,7 @@ pip install gtts
 
 ## Idea
 
-Este script surge porque al leer algunos textos en inglés en mis esfuerzos por mejorarlo, pensé que sería buena idea poder escucharlos también y llevarme el audio .mp3 donde quiera
+Este script surge porque al leer algunos textos en inglés, en mis esfuerzos por mejorarlo, pensé que sería buena idea poder escucharlos también
+
+## Image preview
+![Preview](https://raw.githubusercontent.com/isromar/Python/main/generar%20mp3%20desde%20txt/preview.JPG)
