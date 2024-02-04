@@ -34,6 +34,5 @@ pero ahora hay que poner esa versión concreta
 ## Idea
 Este script surge porque prefería tener la comodidad de accceder al chatGPT a través de Telegram como una conversación, sin tener que acceder al chat de la web a través del navegador
 
-
 ## Image preview
 ![Preview](https://raw.githubusercontent.com/isromar/Python/main/telegram%20bot/preview.JPG)

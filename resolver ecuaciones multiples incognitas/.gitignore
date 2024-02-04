@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+
+# Proyectos privados
+# telegram bot/ no funciona porque hay que pagar por uso de ChatGPT
+descargar imagenes dalle
+telegram bot para chat gente
