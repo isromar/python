@@ -11,3 +11,6 @@ dist/
 
 # Variables de entorno
 .env
+
+chatgpt.txt
+token_bot_father.txt

@@ -12,4 +12,8 @@ dist/
 # Variables de entorno
 .env
 
+# Archivos
 Preguntas chatGPT.html
+
+# Carpetas
+*/
