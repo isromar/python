@@ -4,7 +4,7 @@ Este programa implementa un bot de Telegram que utiliza la API de OpenAI para ge
 ## Configuración
 Antes de ejecutar el bot, asegúrate de haber configurado las siguientes variables de entorno en un archivo `.env` en el directorio raíz del proyecto:
 
-- `TELEGRAM_TOKEN`: Token de autenticación del bot de Telegram.
+- `TELEGRAM_BOT_TOKEN`: Token de autenticación del bot de Telegram.
 - `OPENAPI_KEY`: Clave de autenticación para la API de OpenAI.
 
 ## Uso
