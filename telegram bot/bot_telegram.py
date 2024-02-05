@@ -13,7 +13,7 @@ import os
 load_dotenv()
 
 # Accede a las variables de entorno cargadas
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 OPENAPI_KEY = os.getenv('OPENAPI_KEY')
 
 # Configuración de la API de OpenAI
