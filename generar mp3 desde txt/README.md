@@ -15,4 +15,4 @@ Este script surge porque al leer algunos textos en inglés, pensé que sería bu
 ![Preview](https://raw.githubusercontent.com/isromar/Python/main/generar%20mp3%20desde%20txt/preview.JPG)
 
 ## Link al video
-[Video](https://youtu.be/lG63oLSifEo)
+[Video](https://youtu.be/skiGZmFa36k)
