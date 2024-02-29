@@ -14,5 +14,5 @@ Este script surge porque al leer algunos textos en inglés, pensé que sería bu
 ## Image preview
 ![Preview](https://raw.githubusercontent.com/isromar/Python/main/generar%20mp3%20desde%20txt/preview.JPG)
 
-## Link al video
+## How it works
 [Video](https://youtu.be/skiGZmFa36k)
