@@ -1,17 +1,13 @@
 # Bot de Telegram con OpenAI
 Este programa implementa un bot de Telegram que utiliza la API de OpenAI para generar respuestas a mensajes de texto.
-
 *This program implements a Telegram bot that uses the OpenAI API to generate responses to text messages.*
 
 ## Configuration
 Antes de ejecutar el bot, asegúrate de haber configurado las siguientes variables de entorno en un archivo `.env` en el directorio raíz del proyecto:
+*Before running the bot, make sure you have configured the following environment variables in a .env file in the project's root directory:*
 
-- `TELEGRAM_BOT_TOKEN`: Token de autenticación del bot de Telegram.
-- `OPENAPI_KEY`: Clave de autenticación para la API de OpenAI.
-
-*Before running the bot, make sure you have configured the following environment variables in a .env file in the project's root directory:
-- `TELEGRAM_BOT_TOKEN`: Authentication token for the Telegram bot.
-- `OPENAPI_KEY`: Authentication key for the OpenAI API.*
+- `TELEGRAM_BOT_TOKEN`: Token de autenticación del bot de Telegram. *Authentication token for the Telegram bot.*
+- `OPENAPI_KEY`: Clave de autenticación para la API de OpenAI. *Authentication key for the OpenAI API.*
 
 ## Usage
 Para crear el bot de Telegram, se puede utilizar el servicio ofrecido por BotFather (https://botfather.io/) que no está explicado en este README  
@@ -22,7 +18,6 @@ Desde Telegram, ahora el bot responderá a los mensajes de texto con respuestas 
 
 ## Dependencies
 El programa utiliza las siguientes bibliotecas de Python:
-
 *The program uses the following Python libraries:*
 
 - `python-dotenv` para cargar las variables de entorno desde un archivo `.env`.*to load environment variables from a .env file.*
@@ -30,7 +25,6 @@ El programa utiliza las siguientes bibliotecas de Python:
 - `openai` para utilizar la API de OpenAI.*to utilize the OpenAI API.*
 
 Asegúrate de instalar estas dependencias antes de ejecutar el programa.
-
 *Make sure to install these dependencies before running the program.*
 
 ```bash
@@ -40,18 +34,18 @@ pip install openai==0.28
 ```
 
 Antes usaba
-
 *Previously, I used:*
+
 ```
 pip install openai
 ```
-pero ahora hay que poner esa versión concreta
+pero ahora hay que poner esa versión concreta  
 *but now it is necessary to specify that specific version.*
 
 ## Image preview
 ![Preview](https://raw.githubusercontent.com/isromar/Python/main/telegram%20bot/preview.JPG)
 
 ## Idea
-Este script surge porque prefería tener la comodidad de accceder al chatGPT a través de Telegram como una conversación, sin tener que acceder al chat de la web a través del navegador
+Este script surge porque prefería tener la comodidad de accceder al chatGPT a través de Telegram como una conversación, sin tener que acceder al chat de la web a través del navegador.
 
 *This script emerged because I preferred the convenience of accessing ChatGPT via Telegram as a conversation, without having to access the web chat through a browser.*
