@@ -1,19 +1,23 @@
 # main.py (menú principal)
 import sys
+from even_fibonacci_numbers.main import FibonacciEvenSum
 from digit_fifth_powers.main import DigitosPotencias
 
 def main_menu():
     while True:
         print("\n📚 Menú de problemas de Euler")
+        print("2. Even Fibonacci Numbers")
         print("30. Digit Fifth Powers")
         # Puedes añadir más opciones aquí
         print("2. Salir")
 
         opcion = input("Selecciona una opción: ")
 
-        if opcion == "30":
+        if opcion == "2":
+            FibonacciEvenSum.main()  # llama al método main de la clase
+        elif opcion == "30":
             DigitosPotencias.main()  # llama al método main de la clase
-        elif opcion == "2":
+        elif opcion == "100":
             print("¡Hasta luego!")
             sys.exit()
         else:
