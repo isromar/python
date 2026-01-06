@@ -11,7 +11,7 @@ def main_menu():
 
         opcion = input("Selecciona una opción: ")
 
-        if opcion == "1":
+        if opcion == "30":
             DigitosPotencias.main()  # llama al método main de la clase
         elif opcion == "2":
             print("¡Hasta luego!")
