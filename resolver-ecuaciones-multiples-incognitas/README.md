@@ -16,4 +16,4 @@ pip install numpy
 ```
 
 ## Image preview
-![Preview](https://raw.githubusercontent.com/isromar/Python/main/resolver%20ecuaciones%20multiples%20incognitas/preview.JPG)
+![Preview](https://raw.githubusercontent.com/isromar/Python/main/resolver-ecuaciones-multiples-incognitas/preview.JPG)
