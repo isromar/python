@@ -1,67 +1,68 @@
 """
-SumSquareDifference - Calcula la diferencia entre el cuadrado de la suma
-y la suma de los cuadrados de los primeros N números naturales.
+PythagoreanTriplet - Encuentra a, b, c que cumplan a+b+c=1000 y a^2+b^2=c^2
 
-Ejemplo: para max=100, la diferencia es 25164150.
+Este programa busca los números enteros positivos a, b y c
+que cumplen la condición de ser un triplete pitagórico
+con suma igual a 1000, y calcula su producto.
 
 Características:
-- Clase 'SumSquareDifference' que encapsula la lógica de cálculo.
-- Métodos para calcular la suma de cuadrados, el cuadrado de la suma y la diferencia.
+- Clase 'PythagoreanTriplet' que encapsula la búsqueda.
+- Método para encontrar los tripletes y calcular su producto.
 - Muestra el resultado.
 
 Autor: Isabel Rodenas
 Fecha: 2026-01-10
 """
 
-class SumSquareDifference:
-    """Clase para calcular la diferencia entre el cuadrado de la suma y la suma de cuadrados."""
+class PythagoreanTriplet:
+    """Clase para calcular el triplete pitagórico con suma 1000."""
 
-    def __init__(self, max_num):
-        self.max_num = max_num
-        self.sum_of_squares = 0
-        self.square_of_sum = 0
-        self.difference = 0
+    def __init__(self, total_sum):
+        self.total_sum = total_sum
+        self.a = 0
+        self.b = 0
+        self.c = 0
+        self.product = 0
 
-    def calcular_suma_cuadrados(self):
-        """Calcula la suma de los cuadrados de los primeros max_num números."""
-        self.sum_of_squares = sum(i**2 for i in range(1, self.max_num + 1))
-
-    def calcular_cuadrado_suma(self):
-        """Calcula el cuadrado de la suma de los primeros max_num números."""
-        self.square_of_sum = sum(range(1, self.max_num + 1))**2
-
-    def calcular_diferencia(self):
-        """Calcula la diferencia entre cuadrado de la suma y suma de cuadrados."""
-        self.calcular_suma_cuadrados()
-        self.calcular_cuadrado_suma()
-        self.difference = self.square_of_sum - self.sum_of_squares
+    def encontrar_triplete(self):
+        """Busca el triplete pitagórico y calcula el producto."""
+        for a in range(1, self.total_sum // 3):
+            for b in range(a, self.total_sum // 2):
+                c = self.total_sum - a - b
+                if a*a + b*b == c*c:
+                    self.a, self.b, self.c = a, b, c
+                    self.product = a * b * c
+                    return  # Encontramos el triplete, salimos
 
     def mostrar_resultado(self):
-        print(f"Difference between the square of the sum and sum of squares of first {self.max_num} numbers: {self.difference}")
+        print(f"a: {self.a}")
+        print(f"b: {self.b}")
+        print(f"c: {self.c}")
+        print(f"a x b x c = {self.product}")
 
     @staticmethod
     def main():
-        print("🚀 Iniciando SumSquareDifference")
+        print("🚀 Iniciando PythagoreanTriplet")
         print("=" * 40)
 
         while True:
             try:
-                max_num = int(input("Enter the maximum number (e.g., 100): "))
+                total = int(input("Enter the total sum for the triplet (e.g., 1000): "))
             except ValueError:
                 print("Please enter a valid integer.")
                 continue
 
-            if max_num <= 0:
-                print("Number must be greater than 0.")
+            if total <= 0:
+                print("The sum must be greater than 0.")
                 continue
             else:
                 break
 
-        app = SumSquareDifference(max_num)
-        app.calcular_diferencia()
+        app = PythagoreanTriplet(total)
+        app.encontrar_triplete()
         app.mostrar_resultado()
         print("\n✨ Execution completed!")
 
 
 if __name__ == "__main__":
-    SumSquareDifference.main()
+    PythagoreanTriplet.main()
