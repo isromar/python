@@ -12,7 +12,7 @@ pip install gtts
 Este script surge porque al leer algunos textos en inglés, pensé que sería buena idea poder escucharlos también como ayuda para mejorar el aprendizaje
 
 ## Image preview
-![Preview](https://raw.githubusercontent.com/isromar/Python/main/generar%20mp3%20desde%20txt/preview.JPG)
+![Preview](https://raw.githubusercontent.com/isromar/Python/main/generar-mp3-desde-txt/preview.JPG)
 
 ## How it works
 [Video](https://youtu.be/skiGZmFa36k)
