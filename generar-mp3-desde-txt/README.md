@@ -1,18 +1,36 @@
-# Conversor de Texto a Voz (Python)
-Este script de Python utiliza la librería gTTS (Google Text-to-Speech) para convertir un archivo de texto en un archivo de audio en formato MP3. Al final, pregunta al usuario si desea reproducir el archivo de audio.
+# Convertidor de Texto a MP3 con gTTS
 
-## Instalación de la librería gTTS
-Para instalar la librería gTTS en tu entorno de Python, utiliza el siguiente comando:
+## Descripción
+Este script en Python convierte archivos de texto en archivos de audio MP3 utilizando la librería `gTTS` (Google Text-to-Speech). Al finalizar, pregunta al usuario para reproducir el archivo generado.
 
-```bash
-pip install gtts
-```
+## Requisitos
+- Tener instalado Python.
+- Instalar la librería `gTTS`:
+  ```bash
+  pip install gtts
+  ```
 
-## Idea
-Este script surge porque al leer algunos textos en inglés, pensé que sería buena idea poder escucharlos también como ayuda para mejorar el aprendizaje
+## Uso
+1. Coloca el archivo de texto que deseas convertir en el mismo directorio que el script.
+2. Ejecuta el script:
+   ```bash
+   python nombre_del_script.py
+   ```
+3. Sigue las indicaciones:
+   - Ingresa el nombre del archivo de texto **sin extensión** (ej: `ejemplo` para `ejemplo.txt`).
+   - Selecciona el idioma del texto (`es` para español, `en` para inglés por defecto).
+   - Espera a que se genere el archivo MP3.
+   - Al finalizar, responde `s` para reproducir el audio o `n` para solo guardarlo.
+
+## Notas
+- El archivo MP3 se guardará en el mismo directorio que el script.
+- El script ignora caracteres no compatibles con UTF-8 al leer el archivo de texto.
 
 ## Image preview
 ![Preview](https://raw.githubusercontent.com/isromar/Python/main/generar-mp3-desde-txt/preview.JPG)
 
 ## How it works
 [Video](https://youtu.be/skiGZmFa36k)
+
+## Autor
+Isabel Rodenas Marin
