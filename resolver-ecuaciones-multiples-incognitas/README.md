@@ -15,5 +15,17 @@ Asegúrate de tener NumPy instalado en tu entorno de Python. Si no lo tienes ins
 pip install numpy
 ```
 
+## Cómo ejecutarlo
+
+Guarda los coeficientes en `coeficientes.txt` dentro de esta carpeta y ejecuta:
+
+```bash
+python ecuaciones.py
+```
+
+El programa muestra la matriz y la solución en la consola, y guarda los valores calculados en `solucion.txt`.
+
+Para obtener una solución única, el sistema debe tener el mismo número de ecuaciones que de incógnitas y una matriz de coeficientes invertible.
+
 ## Image preview
 ![Preview](https://raw.githubusercontent.com/isromar/Python/main/resolver-ecuaciones-multiples-incognitas/preview.JPG)
