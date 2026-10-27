@@ -22,7 +22,6 @@ Cada proyecto es también una oportunidad para probar distintas formas de resolv
 
 ### Herramientas y utilidades
 
-- [Calcular tamaños para Instagram](./calcular-instagram/): calcular dimensiones de imagen según su orientación.
 - [Calcular resolución](./calcular-resolucion/): reducir las dimensiones de una imagen mediante un porcentaje.
 - [Temporizador para apagar el ordenador](./apagar-ordenador/): programar el apagado o la hibernación desde una interfaz gráfica.
 - [Convertir texto a MP3](./generar-mp3-desde-txt/): generar audio a partir de archivos de texto.
