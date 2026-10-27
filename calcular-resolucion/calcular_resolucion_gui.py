@@ -8,14 +8,33 @@ def calcular_resolucion(reduccion=0.75):
         entrada_texto = "1920x1080"
 
     try:
-        ancho_str, alto_str = re.split(r'[x*]', entrada_texto)
+        ancho_str, alto_str = re.split(r"[x*]", entrada_texto)
         ancho = int(ancho_str)
+
+        ventana = tk.Tk()           # Crea la ventana principal
+        ventana.title("Calculadora de Resolución")
+
+        entrada = tk.Entry(ventana) # Crea el campo de texto (input)
+        entrada.pack(pady=10)
+
+        # Botón que llama a la función al hacer clic (usa el 75% por defecto)
+        btn = tk.Button(ventana, text="Calcular 75%", command=calcular_resolucion)
+        btn.pack()
+
+        # Etiqueta donde se muestra el resultado o error
+        resultado_label = tk.Label(ventana, text="")
+        resultado_label.pack(pady=10)
+
+        ventana.mainloop()          # Inicia el bucle de eventos de la GUI
+
         alto = int(alto_str)
 
         nuevo_ancho = int(ancho * reduccion)
         nuevo_alto = int(alto * reduccion)
 
-        resultado_label.config(text=f"Resolución reducida al {int(reduccion*100)}%: {nuevo_ancho}x{nuevo_alto}")
+        resultado_label.config(
+            text=f"Resolución reducida al {int(reduccion*100)}%: {nuevo_ancho}x{nuevo_alto}"
+        )
 
     except ValueError:
         resultado_label.config(text="Formato inválido. Usa '1920x1080'.")
