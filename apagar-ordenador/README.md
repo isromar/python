@@ -1,6 +1,6 @@
 # Temporizador Power
 
-Aplicación de escritorio para programar el apagado o hibernación de tu PC con un temporizador visual.
+El proyecto incluye dos versiones: `apagar_pc.py`, una aplicación de escritorio con temporizador visual, y `apagar_pc_cmd.py`, para usar desde la línea de comandos.
 
 ## Requisitos
 
@@ -45,7 +45,6 @@ Este programa surge porque el apagado automático del PC no funcionaba adecuadam
 ## Autor
 
 Isabel Rodenas Marin
-
 
 
 
