@@ -28,7 +28,7 @@ Cada proyecto es también una oportunidad para probar distintas formas de resolv
 
 ### Bots, APIs e integración
 
-- [Bot de Telegram](./telegram-bot/): conectar Telegram con un servicio de generación de respuestas.
+- [Bot de Telegram](./telegram%20bot/): conectar Telegram con un servicio de generación de respuestas.
 
 ### Aprendizaje y experimentación
 
